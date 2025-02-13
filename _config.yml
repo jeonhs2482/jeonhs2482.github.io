@@ -114,7 +114,7 @@ analytics:
 # Site Author
 author:
   name             : "HYUNSOO"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/images/image12.jpeg"
   bio              : "현수의 블로그입니다"
   location         : "Seoul, Korea"
   email            :
