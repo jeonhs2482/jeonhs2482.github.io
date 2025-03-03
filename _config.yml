@@ -12,23 +12,23 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "ko-KR"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "현수의 블로그"
+title                    : "코드의 뒤편"
 title_separator          : "|"
-subtitle                 : "small positive action"
-name                     : "HYUNSOO"
-description              : "현수의 블로그입니다"
+subtitle                 : "beyond the serface"
+name                     : "Code Behind"
+description              : "백엔드 개발자의 기술블로그"
 url                      : "https://jeonhs2482.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "/assets/images/dinosaur.png"
+logo                     : "/assets/images/code_behind.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
-breadcrumbs              : true
+breadcrumbs              : false
 words_per_minute         : 200
 enable_copy_code_button  : # true, false (default)
 copyright                : # "copyright" name, defaults to site.title
@@ -113,12 +113,15 @@ analytics:
 
 # Site Author
 author:
-  name             : "HYUNSOO"
-  avatar           : "/images/image12.jpeg"
-  bio              : "현수의 블로그입니다"
+  name             : "Code Behind"
+  avatar           : # "/images/image12.jpeg"
+  bio              : "백엔드 개발자의 기술블로그"
   location         : "Seoul, Korea"
   email            :
   links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:jeonhs2482@gmail.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/jeonhs2482"
@@ -301,3 +304,5 @@ defaults:
       toc_sticky: true
       toc_label: 목차
       author_profile: false
+
+date_format: "%Y-%m-%d"
